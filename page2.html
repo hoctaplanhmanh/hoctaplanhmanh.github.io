@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <form action="page1.html">
+        <button type="submit">Trang 1</button>
+   </form>
+<head>
+    <title>Photo Collection</title>
+    <h1>Nguyễn Ngọc Kiều Trang</h1>
+    <style>
+        body { 
+            margin: 0; 
+            background: #f0f0f0; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .gallery img {
+            width: 50%; 
+            aspect-ratio: 1 / 1; 
+            object-fit: cover;
+            box-sizing: border-box;
+            border: 2px solid #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/672681982_880041075049848_3012654186744750406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeFpvXxFh6tZbNpbdorLt1itKIJFdGVgukkogkV0ZWC6SbaVyLSXlteQbNfYsUvrq-OSsMyf6WnaJz1ns6JAPv75&_nc_ohc=EcXA0eVR_GkQ7kNvwEct9mI&_nc_oc=Adq5mr7_GcLWtKkjodK6EjRDtMqhQCQKVBnOpf5Ic35Kvfx7ewNp2vuHx3F9frsxADDNRxhRfMdOQkH7DxsGQx96&_nc_zt=23&_nc_ht=scontent.fhan3-4.fna&_nc_gid=w5zPqc9S0xbqwv-P8Je0qA&_nc_ss=7a3a8&oh=00_Af2da8qwIt66_ZEISEKDj8IUyV8gatnZK3CEiytgtu3VSg&oe=69EADC11">
+        <img src="https://scontent.fhan4-5.fna.fbcdn.net/v/t39.30808-6/668769269_875480888839200_7937963321125234936_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeFbXRMN4SKKtQTQtkH3pvm95QQn6kpE8nDlBCfqSkTycI0uPq5R6kTkLlrbb2-r2jbBOU0vnN67zOgSj1QBQsi7&_nc_ohc=sy6phGFZPhsQ7kNvwGk8fzN&_nc_oc=AdpepJmOR6WQr7QVksOndsNc0WhyW_-SzBNLzK0xAsghKpmRENAxAFG5HpLvGXfE6MnXnytx0cOH7zf_SUO12xxh&_nc_zt=23&_nc_ht=scontent.fhan4-5.fna&_nc_gid=90H4tzm1EL3RuegwZ0gz8A&_nc_ss=7a3a8&oh=00_Af3qduCmbD1cMwHlgF2KweweXCxCV_glTKalqD1E9lnv5g&oe=69EAD1DA">
+        <img src="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/666645284_873185602402062_2329473422928676944_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeE63AYrZVyBn3O7xKifjXWncbnVHGp3d7RxudUcand3tOvJZH6RHspwbimykHgR8i6yJ6BFeiXn1VGVb1fTqep2&_nc_ohc=6xvh8AT1Cl8Q7kNvwFBLPg-&_nc_oc=AdpqgO8-6nKDyPkxm1tPnKseC2kS6OuTrEqDiUCIXbYU-ABOVOMkW9a4BcBEUB-E3zJqNKdXmIgVaduz8fFiCcGR&_nc_zt=23&_nc_ht=scontent.fhan3-3.fna&_nc_gid=_1mSSIjtVQ4Sr7Y2lPy82g&_nc_ss=7a3a8&oh=00_Af0DHZPWWyH77lqw2D7k8rb7OKCleBqj1C4xdaS5aYCJ5Q&oe=69EAB411">
+        <img src="https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/651189673_854528100934479_5024945466803328597_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEFsVUm_322ZWqUOsOdMTk4QoJzDuClgwpCgnMO4KWDCuPmNEHyX3dUWcwkZqVctPz9d24n7_bInFK7bSt88QVL&_nc_ohc=m4OHfytVVPEQ7kNvwEOOIzr&_nc_oc=AdoTfT9p48-DUgNsbPyjnbhLay0rnD6puaujeYCQvPyL6idOBsYQwnlWx3TGfPkaxgwDwrFmQOPpCktXD-RSlO70&_nc_zt=23&_nc_ht=scontent.fhan3-4.fna&_nc_gid=WbjxFHRnZ42zybbQCs5RRg&_nc_ss=7a3a8&oh=00_Af1APx-k_Ntfuc_bt2Dflq7NGeNWghI5di0bzi5rXyieEA&oe=69EACE4D">
+        <img src="https://scontent.fhan4-5.fna.fbcdn.net/v/t39.30808-6/650920779_853722227681733_5608702847605670822_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeGqmB6WHAc3JXbZlEmUV2U8VODhiPPNwuFU4OGI883C4VF5frYBINwn_Y1SME68JUMmWRESHGJopPTkLInh5lxU&_nc_ohc=JEJlIaH0rzAQ7kNvwHfx1Ic&_nc_oc=Ado8YtRTagrti3zcjsX1xrIiU8wgzL4grADvklusbkM9GJeMC4nUFNaTKTbzlUjQn9fMQUAZZbcvnZYCXFTKJpDb&_nc_zt=23&_nc_ht=scontent.fhan4-5.fna&_nc_gid=K6JY06u5s3H_jc8aSxGuKQ&_nc_ss=7a3a8&oh=00_Af1iuEp8wAjMQUbbOq1un25vx_xIJoenqyWm5syIffUUWA&oe=69EAD9EA">
+        <img src="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/650924294_851724754548147_5732732437998537570_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeFBEtzGS3C4ZIqpenCjjQ4Qy99Q4MgBxLnL31DgyAHEuQB3_MA-Fd00lYQcCVIKJIz6UoDYmGAVp1S_FYwaAaxv&_nc_ohc=Jhn7_U_VY5EQ7kNvwGlaURS&_nc_oc=AdqIEXIa8oJ5HxAYOQDiFkAXPvQVBbiGETXZMy_AzPpf74yWJFExfmCjwI0xaengq-iHtRY1hnYaMzcD1uMKf9UV&_nc_zt=23&_nc_ht=scontent.fhan3-3.fna&_nc_gid=__UIEfvgIEHmUZzehwJ27g&_nc_ss=7a3a8&oh=00_Af3-RHttI8KbXjub8QNoKM4-ZT_OOdiFf9e7qt6t24V8Lw&oe=69EAE38F">
+        <img src="https://scontent.fhan4-6.fna.fbcdn.net/v/t39.30808-6/617512828_812134598507163_4188107396425221184_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEwy7re9Z2Nm12pChEAPG1TH6Wrv516Bxofpau_nXoHGgKomiT9xhjT8UXb6AAp7146Vd3uS5oJK_Uxkz-vXVQz&_nc_ohc=iNqbiCJk2XIQ7kNvwER5Z3w&_nc_oc=Adpicdqc9YfNdh-mPKU8Zx4uFSk-CVKNK78rvyYEW5ySyUY6e8D_Ek9G2esrrLI8vQg-KboUJVcx4VD-b9Q06_b-&_nc_zt=23&_nc_ht=scontent.fhan4-6.fna&_nc_gid=3mwJOuqG3UOM4PT-RpxYxw&_nc_ss=7a3a8&oh=00_Af3nM1vCaLCU3Fa7U7SqSZ7eF5SxDVNmOr2LonMAKU36bg&oe=69EAD63A">
+        <img src="https://scontent.fhan4-3.fna.fbcdn.net/v/t39.30808-6/542757130_704661965921094_6884095242940365924_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeFNxxDTbGptFTXfUZL0LdLkTTN6Z3AbY-1NM3pncBtj7XmH3I44o-Kb2Mtj8s-g_wUnIZpwzxlptseLqP0wxA1I&_nc_ohc=oa_bciNPFmIQ7kNvwFsSc-C&_nc_oc=AdrvKYNFgbS7yn8wbLdx8MD83BB6JGwucXyd3-m6KPCN3LGZzX47YyT5sTF3-SLwOMTUevP6QzOchuEvYo_Qnfzd&_nc_zt=23&_nc_ht=scontent.fhan4-3.fna&_nc_gid=5pQ4miyX1KX7YHMzdGkY0Q&_nc_ss=7a3a8&oh=00_Af02E7LgY6ynOvGNyig8qGbyiHuVah4Sb7q4QnAnrt8CFg&oe=69EAC053">
+        <img src="https://scontent.fhan4-6.fna.fbcdn.net/v/t39.30808-6/505105896_633765093010782_5443735188360910255_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeFNiKJmgw5bvIBAnDO0y8aVyG-uvHBG2WfIb668cEbZZ1wFpH4gMFz3R_ys8D83UWm-lrw_dgCqsjBDYk8Kvay4&_nc_ohc=RuCrXhFlNvkQ7kNvwHpB7GX&_nc_oc=AdphOnW0QNEjslUqLbrZO-Huro-Sr76Y_KwYOwVsf-U1Yc0krll6LJgEDTUS5dzMGqr6qvwg5jc0RCc0eWI6SIDe&_nc_zt=23&_nc_ht=scontent.fhan4-6.fna&_nc_gid=5lMoXM0cl06TtJYqOCVLIg&_nc_ss=7a3a8&oh=00_Af3IkL-i-yK2KJ-h6pR1T2gjFJVjgOUW-BJumyzUlByp3w&oe=69EACAB3">
+        <img src="https://scontent.fhan4-6.fna.fbcdn.net/v/t39.30808-6/477796291_547837971603495_4272453760854532415_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEF74K9-Q7FDGBOiqKvmFTUUCIv2eytsohQIi_Z7K2yiKzYcp_32tRrvDGpiwJ1nDLQ6ZjGCpw-sv_qvMAUcmo-&_nc_ohc=B_P52ZjEg28Q7kNvwHWCVJN&_nc_oc=Adp_YAVe5Hq-RxurrMpkzUDFMndXnQsk5DkIvLKDmC_6v1c91LUshMY5IRlL1_0qjp8dc8K2Sj4CI5d4cNq5CjWR&_nc_zt=23&_nc_ht=scontent.fhan4-6.fna&_nc_gid=oHQRfDDTToplQ7tHaAi9VQ&_nc_ss=7a3a8&oh=00_Af1iS-3xIpeY8jOnwrNWbpplM1QiO2EWTaODhV8YYlJVDg&oe=69EAB356">
+        <img src="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/528703159_680028151717809_908078156628609290_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeGecjdHP3S8y0gkzVnGDAiq6hfK9du2J4TqF8r127YnhNNPERJAeMnijVFgW26o2mIBlCLIQtrOnjZCm9klJR_0&_nc_ohc=_WtEDkd6hw0Q7kNvwFFHS9T&_nc_oc=Adp---1tIkyXLUYmIsSoEOU_drapaHDaAjW-g0XSkK6ljIxD2NDVE9fbFYboZR-1DdmxeNxzSGfjc0ihFpRU6pis&_nc_zt=23&_nc_ht=scontent.fhan3-3.fna&_nc_gid=c561uArdA87inRSHT3ALJg&_nc_ss=7a3a8&oh=00_Af3yNoKr6sywXZJOPBovjMBzvgHMibmFsXrkIkQg8H9yJA&oe=69EAB4FB">
+    </div>
+
+</body>
+</html>
